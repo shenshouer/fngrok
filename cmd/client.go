@@ -36,4 +36,6 @@ func init() {
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
 	RootClientCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+
+	RootClientCmd.AddCommand(versionCmd)
 }
