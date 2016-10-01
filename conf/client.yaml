@@ -1,0 +1,10 @@
+server_addr: 0.0.0.0
+server_port: 7000
+# for authentication
+auth_token: 123
+# for privilege mode
+privilege_token: 12345678
+log_file: ./log/fngrok-client.log
+# debug, info, warn, error
+log_level: debug
+log_max_days: 3
